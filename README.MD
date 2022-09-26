@@ -3,3 +3,4 @@
 
 Aquí anirem penjant les pràctiques de programació.
 
+- [Tres en ratlla - Arrays multidimensionals.](tresEnRatlla.md)
