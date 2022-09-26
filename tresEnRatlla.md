@@ -22,5 +22,6 @@ El programa llançarà una excepció per indicar:
 ## Solucions:
 
 * [AC](https://github.com/AleixCarles/MP03UF5)
+* [AM](https://github.com/AleixMS5/uf4prog)
+* [JB](https://github.com/JoanBayo/MP03_UF5/blob/main/THREEINAROW.java)
 * [JR](https://github.com/Riba00/TresEnRatlla)
-
