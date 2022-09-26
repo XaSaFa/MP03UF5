@@ -19,3 +19,8 @@ El programa llançarà una excepció per indicar:
 * Si un moviment fa que la partida acabi en empat:
   * Indicant que s’ha acabat la partida per empat.
 
+## Solucions:
+
+* [AC](https://github.com/AleixCarles/MP03UF5)
+* [JR](https://github.com/Riba00/TresEnRatlla)
+
