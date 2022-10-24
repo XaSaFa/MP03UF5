@@ -22,7 +22,7 @@ Expliqueu els aspectes fonamentals de DOM:
 - Com funciona.
 - Classes necessàries.
 - Excepcions que s'han de controlar.
-- Codi d'exemple de lextura des de fitxer.
+- Codi d'exemple de lectura des de fitxer.
 - Codi d'exemple d'escriptura a fitxer.
 
 ### SAX:
@@ -33,7 +33,7 @@ Expliqueu els aspectes fonamentals de SAX:
 - Com funciona.
 - Classes necessàries.
 - Excepcions que s'han de controlar.
-- Codi d'exemple de lextura des de fitxer.
+- Codi d'exemple de lectura des de fitxer.
 - Codi d'exemple d'escriptura a fitxer.
 
 ### XPath:
