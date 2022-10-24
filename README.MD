@@ -7,6 +7,7 @@ Aquí anirem penjant les pràctiques de programació.
 - [Torres de Hanoi - Stack, ús de piles.](torresDeHanoi.md) 
 - [Gestió d'expedients - Array Lists](gestioExpedients.md)
   - [Gestió de UFs amb lectura a disc](GestioUF.md)
+- [Investigació XML](investigacioXML.md)
   
 ## Tutorials:
 
