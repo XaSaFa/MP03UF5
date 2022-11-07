@@ -8,6 +8,8 @@ Aquí anirem penjant les pràctiques de programació.
 - [Gestió d'expedients - Array Lists.](gestioExpedients.md)
   - [Gestió de UFs amb lectura a disc.](GestioUF.md)
 - [Investigació XML.](investigacioXML.md)
+  - [Exemple SAX](JAVAXMLSAX.java)
+  - [Fitxer Productes XML d'exemple per SAX](Productes.xml)
   
 ## Tutorials:
 
