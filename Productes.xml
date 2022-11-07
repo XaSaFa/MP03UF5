@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Productes>
+    <producte>
+	<id>0</id>
+	<nom lang="0" word="nom">pa</nom>
+	<nom lang="1" word="name">bread</nom>
+	<nom lang="2" word="nombre">pan</nom>
+	<descripcio lang="0" word="descripció">Pa de blat</descripcio>
+<descripcio lang="1" word="description">Wheat bread</descripcio>
+<descripcio lang="2" word="descripción">Pan de trigo</descripcio>
+	<preu>1.0</preu>
+</producte>
+ <producte>
+	<id>1</id>
+	<nom lang="0" word="nom">pa1</nom>
+	<nom lang="1" word="name">bread1</nom>
+	<nom lang="2" word="nombre">pan1</nom>
+	<descripcio lang="0" word="descripció">Pa de blat1</descripcio>
+<descripcio lang="1" word="description">Wheat bread1</descripcio>
+<descripcio lang="2" word="descripción">Pan de trigo1</descripcio>
+	<preu>2.0</preu>
+</producte>
+</Productes>
