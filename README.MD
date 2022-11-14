@@ -10,6 +10,7 @@ Aquí anirem penjant les pràctiques de programació.
 - [Investigació XML.](investigacioXML.md)
   - [Exemple SAX](JAVAXMLSAX.java)
   - [Fitxer Productes XML d'exemple per SAX](Productes.xml)
+- [Gestió de fitxers en JAVA](fitxers.md)
   
 ## Tutorials:
 
