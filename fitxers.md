@@ -44,3 +44,41 @@ public class ficheros {
 #### Llibreria java.io
 
 ![image](https://user-images.githubusercontent.com/110727546/201608056-7ce264dc-9e8b-4c84-bbf8-d904603c9818.png)
+
+#### Llegir i escriure carácters:
+
+Per llegir i escriure a carácters fem servir les classes [FileReader](https://docs.oracle.com/javase/7/docs/api/java/io/FileReader.html) i [FileWriter](https://docs.oracle.com/javase/7/docs/api/java/io/FileWriter.html).
+
+Heu de tenir en compte que la classe FileWriter crea un nou fitxer, per tant es perd la informació quan cridem al constructor.
+
+Aquí teniu un exemple d'una escriptura de tres carácters i la seva lectura:
+
+```
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class ficheros {
+
+    public static void main(String[] args) {
+
+        try{
+            FileWriter fileWriterAux = new FileWriter("caracters.txt");
+            fileWriterAux.write('a');
+            fileWriterAux.write('b');
+            fileWriterAux.append('c');
+            fileWriterAux.close();
+            FileReader fileReaderAux = new FileReader("caracters.txt");
+            int caracterActual = 0;
+            while((caracterActual = fileReaderAux.read())!=-1) {
+                System.out.println((char)caracterActual);
+            }
+            fileReaderAux.close();
+
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+}
+```
