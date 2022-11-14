@@ -4,6 +4,10 @@ Un fitxer o arxiu és un conjunt de bits emmagatzemats a un dispositiu, com pot 
 
 L’avantatge principal dels fitxers és que les dades es poden recuperar un cop s’apaga el equip, no són volàtils.
 
+#### Llibreria java.io
+
+![image](https://user-images.githubusercontent.com/110727546/201608056-7ce264dc-9e8b-4c84-bbf8-d904603c9818.png)
+
 ### Classe File:
 
 La classe **File** de JAVA ens proporciona una serie de informació i mètodes de manipulació de fitxers, la classe File només té el nom i ruta del fitxer, no és el fitxer en si:
@@ -18,10 +22,23 @@ La classe **File** de JAVA ens proporciona una serie de informació i mètodes d
 - createNewFile(): crea un nou fitxer buit i associat a File si no existeix cap fitxer amb aquest nom.
 - delete(): Esborra el fitxer o directori associat a File.
 - isFile(): Retorna true si File es un fitxer normal.
-- mkdir(): Crea un directoriamb el nom indicat a la creació de l’objecte File.
+- mkdir(): Crea un directori amb el nom indicat a la creació de l’objecte File.
 - renameTo(File nou): renombra el fitxer.
+- ...
 
-#### Exemple de creació d’un fitxer nou:
+#### Activitat:
+
+Fes un programa que, passant-li una ruta et retorni:
+
+1. Si és la ruta d'un fitxer o un directori
+2. El nom del fitxer/directori.
+3. El camí relatiu (path).
+4. El camí absolut (path).
+5. En cas de ser un fitxer Si el fitxer es pot llegir, escriure i/o executar.
+6. La última vegada que es va modificar.
+7. El seu tamany.
+
+### Exemple de creació d’un fitxer nou:
 
 ´´´
 import java.io.File;
@@ -41,11 +58,8 @@ public class ficheros {
     }
 }
 ´´´
-#### Llibreria java.io
 
-![image](https://user-images.githubusercontent.com/110727546/201608056-7ce264dc-9e8b-4c84-bbf8-d904603c9818.png)
-
-#### Llegir i escriure carácters:
+### Llegir i escriure carácters:
 
 Per llegir i escriure a carácters fem servir les classes [FileReader](https://docs.oracle.com/javase/7/docs/api/java/io/FileReader.html) i [FileWriter](https://docs.oracle.com/javase/7/docs/api/java/io/FileWriter.html).
 
@@ -83,7 +97,26 @@ public class ficheros {
 }
 ```
 
-#### Llegir i escriure Línies de text (Strings):
+#### Activitat:
+
+Fes un programa que:
+
+1. Generi 10 caràcters de la A a la Z maiúscules de forma aleatòria.
+2. Guardi els 10 caràcters al fitxer "caracters.txt".
+3. Llegeixi el fitxer "caracters.txt" i tregui un llistat amb totes les lletres de l'abecedari en maiúscules i la quantitat de lletres que hi ha al fitxer de cada una d'elles.
+
+Per exemple, si es generen aquests caràcters: A,A,A,B,B,B,C,C,C,D
+
+La sortida seria: 
+A:3
+B:3
+C:3
+D:1
+E:0
+...
+
+
+### Llegir i escriure Línies de text (Strings):
 
 Normalment utilitzem métodes de classes com [BufferedWriter](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedWriter.html) per escriure o [BufferedReader](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html) per llegir.
 
@@ -121,7 +154,16 @@ public class ficheros {
 }
 ```
 
-#### Llegir i escriure dades binaries:
+#### Activitat:
+
+Fes un programa que:
+
+1. Doni la opció d'escriure el títol d'una pel·licula al fitxer "pelis.txt".
+2. Doni la opció de llegir les pelis del fitxer "pelis.txt".
+3. Ordeni les pelis al fitxer "pelis.txt" cada vegada que aquest es modifiqui.
+
+
+### Llegir i escriure dades binaries:
 
 El que hem vist fins ara era escriure i llegir informació en mode text.
 
