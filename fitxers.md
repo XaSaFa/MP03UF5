@@ -49,7 +49,7 @@ public class ficheros {
 
 Per llegir i escriure a carácters fem servir les classes [FileReader](https://docs.oracle.com/javase/7/docs/api/java/io/FileReader.html) i [FileWriter](https://docs.oracle.com/javase/7/docs/api/java/io/FileWriter.html).
 
-Heu de tenir en compte que la classe FileWriter crea un nou fitxer, per tant es perd la informació quan cridem al constructor.
+Heu de tenir en compte que la classe FileWriter crea un nou fitxer, per tant es perd la informació quan cridem al constructor. Això s'evita cridant al constructor amb un segon paràmetre amb valor **true**.
 
 Aquí teniu un exemple d'una escriptura de tres carácters i la seva lectura:
 
@@ -66,7 +66,7 @@ public class ficheros {
             FileWriter fileWriterAux = new FileWriter("caracters.txt");
             fileWriterAux.write('a');
             fileWriterAux.write('b');
-            fileWriterAux.append('c');
+            fileWriterAux.write('c');
             fileWriterAux.close();
             FileReader fileReaderAux = new FileReader("caracters.txt");
             int caracterActual = 0;
@@ -74,6 +74,45 @@ public class ficheros {
                 System.out.println((char)caracterActual);
             }
             fileReaderAux.close();
+
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+#### Llegir i escriure Línies de text (Strings):
+
+Normalment utilitzem métodes de classes com [BufferedWriter](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedWriter.html) per escriure o [BufferedReader](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html) per llegir.
+
+En el següent exemple s'escriuren tres línies de text i es llegeixen.
+```
+import java.io.*;
+
+public class ficheros {
+
+    public static void main(String[] args) {
+
+        try{
+            //escriure:
+            FileWriter fileWriterAux = new FileWriter("frases.txt");
+            BufferedWriter bufferedWriterAux = new BufferedWriter(fileWriterAux);
+            bufferedWriterAux.write("Mas vale prevenir que curar");
+            bufferedWriterAux.newLine();
+            bufferedWriterAux.write("Quien a buen arbol se arrima buena sombra le cobija");
+            bufferedWriterAux.newLine();
+            bufferedWriterAux.close();
+            //llegir:
+            FileReader fileReaderAux = new FileReader("frases.txt");
+            BufferedReader bufferedReaderAux = new BufferedReader(fileReaderAux);
+            int Actual = 0;
+            String fraseActual = "";
+            while((fraseActual = bufferedReaderAux.readLine())!=null) {
+                System.out.println(fraseActual);
+            }
+            bufferedReaderAux.close();
 
 
         }catch (IOException e){
