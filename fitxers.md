@@ -107,12 +107,52 @@ public class ficheros {
             //llegir:
             FileReader fileReaderAux = new FileReader("frases.txt");
             BufferedReader bufferedReaderAux = new BufferedReader(fileReaderAux);
-            int Actual = 0;
             String fraseActual = "";
             while((fraseActual = bufferedReaderAux.readLine())!=null) {
                 System.out.println(fraseActual);
             }
             bufferedReaderAux.close();
+
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+#### Llegir i escriure dades binaries:
+
+El que hem vist fins ara era escriure i llegir informació en mode text.
+
+Per llegir i escrire dades en binari utilitzem les classes [DataInputStream](https://docs.oracle.com/javase/7/docs/api/java/io/DataInputStream.html) i  [DataOutputStream](https://docs.oracle.com/javase/7/docs/api/java/io/DataOutputStream.html).
+
+En el següent exemple escrivim i llegim números sencers, però les classes tenen mètodes per llegir i escriure diferents tipus de dades.
+
+```
+import java.io.*;
+
+public class ficheros {
+
+    public static void main(String[] args) {
+
+        try{
+            //escriure:
+            FileOutputStream fileOutputStreamAux = new FileOutputStream("dadesBinaries.txt");
+            DataOutputStream dataOutputStreamAux = new DataOutputStream(fileOutputStreamAux);
+            dataOutputStreamAux.writeInt(1);
+            dataOutputStreamAux.writeInt(2);
+            dataOutputStreamAux.writeInt(3);
+            dataOutputStreamAux.close();
+            //llegir:
+            FileInputStream fileInputStreamAux = new FileInputStream("dadesBinaries.txt");
+            DataInputStream dataInputStreamAux = new DataInputStream(fileInputStreamAux);
+
+
+            while(dataInputStreamAux.available()>0) {
+                System.out.println(dataInputStreamAux.readInt());
+            }
+            dataInputStreamAux.close();
 
 
         }catch (IOException e){
