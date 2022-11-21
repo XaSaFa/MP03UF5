@@ -158,9 +158,10 @@ public class ficheros {
 
 Fes un programa que:
 
-1. Doni la opció d'escriure el títol d'una pel·licula al fitxer "pelis.txt".
-2. Doni la opció de llegir les pelis del fitxer "pelis.txt".
-3. Ordeni les pelis al fitxer "pelis.txt" cada vegada que aquest es modifiqui.
+1. Demana a l'usuari/a el títol d'una peli.
+2. Ordeni alfabèticament les pelis del fitxer "pelis.txt", afegint la nova peli.
+3. Llista les pelis del fitxer "pelis.txt".
+
 
 
 ### Llegir i escriure dades binaries:
