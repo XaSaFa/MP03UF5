@@ -180,14 +180,14 @@ public class ficheros {
 
         try{
             //escriure:
-            FileOutputStream fileOutputStreamAux = new FileOutputStream("dadesBinaries.txt");
+            FileOutputStream fileOutputStreamAux = new FileOutputStream("dadesBinaries.data");
             DataOutputStream dataOutputStreamAux = new DataOutputStream(fileOutputStreamAux);
             dataOutputStreamAux.writeInt(1);
             dataOutputStreamAux.writeInt(2);
             dataOutputStreamAux.writeInt(3);
             dataOutputStreamAux.close();
             //llegir:
-            FileInputStream fileInputStreamAux = new FileInputStream("dadesBinaries.txt");
+            FileInputStream fileInputStreamAux = new FileInputStream("dadesBinaries.data");
             DataInputStream dataInputStreamAux = new DataInputStream(fileInputStreamAux);
 
 
@@ -203,3 +203,11 @@ public class ficheros {
     }
 }
 ```
+
+#### Activitat:
+
+Fes un programa que:
+
+1. Pregunti a l'usuari un numero sencer i guardi al fitxer "arrels.data" el numero sencer al quadrat.
+2. Llegeixi del fitxer "arrels.data" els numeros emmagatzemats i mostri la seva arrel quadrada.
+
