@@ -12,6 +12,7 @@ Aquí anirem penjant les pràctiques de programació.
   - [Fitxer Productes XML d'exemple per SAX](Productes.xml)
 - [Gestió de fitxers en JAVA](fitxers.md)
   - [TOP SECRET](topsecret.md)
+- [Cues](cues.md)
   
 ## Tutorials:
 
