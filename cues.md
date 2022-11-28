@@ -42,6 +42,16 @@ public class Main {
 
 ## Activitats:
 
-1. Crea un programa que demana a l'usuari números sencers, per consola, de forma il·limitada fins que l'usuari introdueixi un número negatiu. 
+1. Crea un programa que demana a l'usuari números sencers, per consola, de forma il·limitada fins que l'usuari introdueixi un número negatiu. Quan l'usuari introdueix un número negatiu el programa mostra els números de la cua en ordre del primer a l'últim.
+
+2. Crea un programa que demana a l'usuari números sencers de l'1 al 20, per consola, de forma il·limitada fins que l'usuari introdueixi un número negatiu. Quan l'usuari introdueix un número negatiu el programa mostra per pantalla, per cada valor de la cua, una línia amb un número d'asterics igual al valor del número de la cua.
+
+Per exemple la cua següent (3,2,3), mostraria:
+
+```
+***
+**
+***
+```
 
 
