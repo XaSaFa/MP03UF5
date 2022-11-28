@@ -54,4 +54,14 @@ Per exemple la cua següent (3,2,3), mostraria:
 ***
 ```
 
+3. Crea un programa que et deixi introducir elements de tipus cadena de text (String) a una cua, fins introduïr una cadena buida, després mostri per pantalla el número de caracters de cada cadena de la cua.
+-  Pots utilitzar la funció lenght() de la classe String.
+ 
+
+4. Crea un programa que et deixi introducir noms propis (String) a una cua, fins introduïr una cadena buida, després demani una altra cadena per terminal que sigui el nom de l'usuari i compari cada valor de la cua amb el nom de l'usuari i mostri el número cadenes que són iguals ja estiguin en maiúscules o minúscules.
+- Pots fer servir les funcions toUpperCase(), toLowerCase() i compareTo() de la classe String.
+
+5. Codi secret: Crea un programa que guardi una cua de paraules per terminal i un número. Després substitueixi cada lletra de les paraules per una lletra igual a la lletra + el número entrat per l'usuari, per exemple, si el número és 3, la paraula ABC quedaria: DEF. Per últim les mostri per pantalla per ordre FIFO. 
+- Pots utilitzar la funció replace() de String.
+
 
