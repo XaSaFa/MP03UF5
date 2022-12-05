@@ -3,7 +3,9 @@
 Tenim la classe carta:
 
 ```
-public class carta implements serializable{
+import java.io.*;
+
+public class carta implements Serializable{
     enum pals{
         ORS,
         COPES,
