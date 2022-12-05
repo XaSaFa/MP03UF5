@@ -13,6 +13,7 @@ Aquí anirem penjant les pràctiques de programació.
 - [Gestió de fitxers en JAVA](fitxers.md)
   - [TOP SECRET](topsecret.md)
 - [Cues](cues.md)
+- [Cartes](cartes.md)
   
 ## Tutorials:
 
