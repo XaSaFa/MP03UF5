@@ -3,7 +3,7 @@
 Tenim la classe carta:
 
 ```
-public class carta {
+public class carta implements serializable{
     enum pals{
         ORS,
         COPES,
