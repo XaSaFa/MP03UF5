@@ -59,6 +59,9 @@ El següent codi guarda a un fitxer un objete de tipus carta i el torna a llegir
 -------------------------------------------------------------------------------------------------------------------
 
 3. Crea un programa que faci una pila de cartes per jugar ordenades de forma aleatoria cada vegada.
-  -  El programa després repartirá a cada jugador, fins un màxim de cuatre, 6 cartes (1 a cada jugador cada vegada).
-  -  Cada jugador pot tenir com a màxim 6 cartes a la ma.
-  -  Els jugadors seran una classe amb els mètodes rebreCarta i jugarCarta per agafar o desfer-se de cartes a la ma.
+  -  El programa pregunta els noms del jugador 1 i jugador 2.
+  -  El programa barreja la baralla.
+  -  El programa agafa les dues últimes cartes, la primera pel jugador 1 i la segona pel jugador 2.
+  -  El programa diu quin jugador guanya la ma (la carta més alta guanya, si hi ha empat no guanya ningú).
+  -  Al final de la partida el programa diu els punts de cada jugador i qui ha guanyat.
+  -  Et dona la opció de fer una nova partida o sortir.
