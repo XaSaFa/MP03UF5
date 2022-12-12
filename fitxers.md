@@ -40,7 +40,7 @@ Fes un programa que, passant-li una ruta et retorni:
 
 ### Exemple de creació d’un fitxer nou:
 
-´´´
+```
 import java.io.File;
 import java.io.IOException;
 
@@ -57,7 +57,7 @@ public class ficheros {
         }
     }
 }
-´´´
+```
 
 ### Llegir i escriure carácters:
 
@@ -121,6 +121,7 @@ E:0
 Normalment utilitzem métodes de classes com [BufferedWriter](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedWriter.html) per escriure o [BufferedReader](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html) per llegir.
 
 En el següent exemple s'escriuren tres línies de text i es llegeixen.
+
 ```
 import java.io.*;
 
