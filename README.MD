@@ -14,6 +14,7 @@ Aquí anirem penjant les pràctiques de programació.
   - [TOP SECRET](topsecret.md)
 - [Cues](cues.md)
 - [Cartes](cartes.md)
+- [Interfícies - BootstrapFX](interfaces.md)
   
 ## Tutorials:
 
