@@ -152,7 +152,7 @@ Podem afegir imatges al nostre programa, per exemple al fitxer FXML:
 ```
     <ImageView fitWidth="150" preserveRatio="true" fx:id="logo" >
         <image>
-            <Image  url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2560px-Adidas_Logo.svg.png" />
+            <Image  url="https://pbs.twimg.com/profile_images/1501471976094945280/gE-3sm7e_400x400.jpg" />
         </image>
     </ImageView>
 ```
