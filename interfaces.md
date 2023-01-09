@@ -137,13 +137,13 @@ public class HelloController {
 
 ### Activitats:
 
-1- Feu un programa que tingui dos camps de text per introduir números i un botó per cada operació matemàtica: suma, resta, multiplicació, divisió. Al pressionar el botó d'una operació es mostrarà en una etiqueta Label el resultat.
+1. Feu un programa que tingui dos camps de text per introduir números i un botó per cada operació matemàtica: suma, resta, multiplicació, divisió. Al pressionar el botó d'una operació es mostrarà en una etiqueta Label el resultat.
 
-2- Feu un programa que demani usuari i contrasenya utilitzant un TextField pel nom i un PasswordField per la contrasenya, també que tingui un botó amb el text "registrar usuari". El programa guarda en un fitxer anomenat "secret" el nom d'usuari i la contrasenya.
+2. Feu un programa que demani usuari i contrasenya utilitzant un TextField pel nom i un PasswordField per la contrasenya, també que tingui un botó amb el text "registrar usuari". El programa guarda en un fitxer anomenat "secret" el nom d'usuari i la contrasenya.
 
-3- Millora el programa anterior amb xifratge de la contrasenya [pots utilitzar el xifratge SHA d'Apache](https://mvnrepository.com/artifact/commons-codec/commons-codec/1.9) o un altre.
+3. Millora el programa anterior amb xifratge de la contrasenya [pots utilitzar el xifratge SHA d'Apache](https://mvnrepository.com/artifact/commons-codec/commons-codec/1.9) o un altre.
 
-4- Fes un programa que demani usuari i contrasenya i mostri "Error" si no hi ha cap combinació d'usuari i contrasenya idèntic al fitxer secret però mostri "Benvingut/da + nom d'usuari/a" si existeix.
+4. Fes un programa que demani usuari i contrasenya i mostri "Error" si no hi ha cap combinació d'usuari i contrasenya idèntic al fitxer secret però mostri "Benvingut/da + nom d'usuari/a" si existeix.
 
 ## Imatges:
 
@@ -171,8 +171,8 @@ I les podem canviar en temps d'execució (a HelloController):
 
 ### Activitats:
 
-1- Afegeix una imatge als programes anteriors.
+1. Afegeix una imatge als programes anteriors.
 
-2- Fes un programa que tingui una imatge, un camp de text i un botó, si pressionem el botó es canviarà la imatge del programa per la de la URL introduida al camp de text.
+2. Fes un programa que tingui una imatge, un camp de text i un botó, si pressionem el botó es canviarà la imatge del programa per la de la URL introduida al camp de text.
 
 
