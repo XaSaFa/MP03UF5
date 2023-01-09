@@ -162,8 +162,7 @@ I les podem canviar en temps d'execució (a HelloController):
 ```
     @FXML
     protected void boto1() {
-        String cadenaAux = nom.getText();
-        welcomeText.setText(cadenaAux);
+        String cadenaAux = nom.getText();        
         Image imatge1 = new Image(cadenaAux);
         logo.setImage(imatge1);
     }
